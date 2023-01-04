@@ -2,18 +2,20 @@
 
 ### Taak 1: de klasse Point
 
-Maak de klasse Point. Deze klasse heeft 2 eigenschappen: een x- en y-coordinaat (int).
-Een Point-object kan vergeleken worden met een ander Point-object.
-Gebruik de y-coordinate voor de vergelijking (een lagere y-coordinaat komt voor een hogere waarde).
-Als de y-coordinaten gelijk zijn dan gebruik je de x-coordinaat.
-Zorg ook dat de equals-methode correct wordt geimplementeerd. 
+Maak de klasse Point. Deze klasse heeft 2 eigenschappen: een x- en y-coördinaat (int).
+* Een Point-object kan vergeleken worden met een ander Point-object.
+Gebruik de y-coördinaat voor de vergelijking (een lagere y-coördinaat komt voor een hogere waarde).
+Als de y-coördinaten gelijk zijn dan gebruik je de x-coördinaat.
+* Zorg ook dat de equals-methode correct wordt geïmplementeerd. 
 Twee Point-objecten zijn gelijk als hun x- en y-waarden gelijk zijn.
+* Voorzie getters en setters.
+* Voorzie de toString()-methode: formaat (x,y).
 
-Test alle methoden!
+Test alle methoden behalve getters en setters!
 
 ### Taak 2: inlezen van bestand color.txt
 
-Lees het bestand color.txt. Gebruik een **Map** om de waarde van R (rood), G (geel) en B (blauw) te bepalen.
+Lees het bestand color.txt. Gebruik een **Map** om de waarde van R (rood), G (groen) en B (blauw) te bepalen.
 Je start met de waarde 0 voor iedere kleur. Als je het bestand inleest, voer je de bewerkingen uit. 
 Dus bij instructie "G +10" tel je 10 op bij de huidige waarde van kleur G.
 
